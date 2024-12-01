@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mansalva&display=swap');
+
+:root {
+  --colors-primaryA100: #D7FAF8;
+  --colors-primaryA200: #5EEBE4;
+  --colors-primaryA400: #15ACA5;
+  --colors-primaryA600: #10847E;
+  --colors-primaryA800: #0E746E;
+  --colors-primaryA1000: #0A534F;
+  
+}
+ body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+/* .main{
+  position: relative; 
+  background-color: #0faca4; 
+  height: 100vh;
+  width: 100vw;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../src/asset/img/feather.jpeg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  opacity: 0.11; 
+  z-index: 1; 
+}
+
+nav{
+  padding: 15px 90px;
+  width: 100%;
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  z-index: 90;
+}
+.nav-lists{
+  display: flex;
+  gap: 50px;
+  color: #fff;
+}
+.login-btn{
+  background-color: #fff;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 10px;
+  color: #126d69;
+}
+.main-content-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+.heading{
+  font-size: 80px;
+  display: flex;
+}
+ */
+.heading .head-1{
+  font-family: "Mansalva", sans-serif;
+  color: #fff;
+}
+.heading .head-2{
+  font-family: sans-serif;
+  color: #353383;
+}
+.heading .head-3{
+  font-family: sans-serif;
+  color: #fff;
+}
+.slogan{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: -10px;  
+}
+.emergency-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-options li:hover{
+  color: #353383;
+}
+/* .emergency-container input{
+  font-size: 1.7em;
+  border: none;
+  border-radius: 5px;
+}
+.call-btn{
+  background-color: #F79E02;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+ */
+.logo-first-letter{
+  color: orangered;
+}
+.nav-options a:hover{
+  color: var(--colors-primaryA400);
+}
+.animal-container{
+  font-size: 60px;
+  align-items: center;
+  margin-top: 50px;
+}
+.animals{
+  display: flex;
+  gap: 30px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.animals button{
+  margin-top: 50px;
+  background-color: orangered;
+  color: #fff;
+  padding: 10px 30px;
+}
